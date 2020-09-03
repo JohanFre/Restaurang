@@ -1,0 +1,77 @@
+
+.header {
+	background-color: #c6e9fd;
+	text-align: center;
+	
+}
+#img1{
+  border-radius: 50%;
+}
+#tele {
+	float: ;
+}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #3c3b3b;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #c6e9fd;
+  text-align: center;
+  padding: 35px;
+  text-decoration: none;
+}
+#navbar h4 {
+  float: right;
+  display: block;
+  color: #c6e9fd;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+article {
+  background-image: url("burger.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+aside {
+  width: 15%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: #a0a0a0;
+}
+footer {
+    height: auto;
+    text-align: center;
+    margin-top: 210px;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
