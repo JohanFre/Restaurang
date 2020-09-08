@@ -1,8 +1,22 @@
+html {
+	height: 100%;
+}
+* {
+	box-sizing: border-box;
+}
 
 .header {
 	background-color: #c6e9fd;
-	text-align: center;
+	text-align: center;	
 	
+}
+body {
+	min-width: 100%;
+	min-height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 #img1{
   border-radius: 50%;
@@ -12,7 +26,10 @@
 }
 /* Style the navbar */
 #navbar {
-  overflow: hidden;
+  height: 7%;
+  position: fixed;
+  top: 0px;
+  width: 100%;
   background-color: #3c3b3b;
 }
 
@@ -22,7 +39,7 @@
   display: block;
   color: #c6e9fd;
   text-align: center;
-  padding: 35px;
+  padding: 16px;
   text-decoration: none;
 }
 #navbar h4 {
@@ -30,7 +47,7 @@
   display: block;
   color: #c6e9fd;
   text-align: center;
-  padding: 14px;
+  margin: 15px;
   text-decoration: none;
 }
 
@@ -51,27 +68,19 @@
   padding-top: 60px;
 }
 article {
-  background-image: url("burger.png");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-family: Georgia;
+  background-color: #c6e9fd;
+  width: 100%;
+  overflow: auto;
   position: relative;
+  text-align: center;
 }
-aside {
-  width: 15%;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
-  font-style: italic;
-  background-color: #a0a0a0;
-}
+
 footer {
     height: auto;
-    text-align: center;
-    margin-top: 210px;
-    padding: 3px;
-    background-color: DarkSalmon;
-    color: white;
+	width: 100%;
+    padding: 15px;
+    background-color: #3c3b3b;
+    color: #c6e9fd;
+	text-align: center;
 }
